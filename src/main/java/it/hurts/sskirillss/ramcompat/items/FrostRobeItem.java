@@ -3,7 +3,6 @@ package it.hurts.sskirillss.ramcompat.items;
 import com.github.alexthe666.alexsmobs.entity.AMEntityRegistry;
 import com.github.alexthe666.alexsmobs.entity.EntityIceShard;
 import it.hurts.sskirillss.ramcompat.init.ItemRegistry;
-import it.hurts.sskirillss.relics.client.tooltip.base.RelicStyleData;
 import it.hurts.sskirillss.relics.items.relics.base.RelicItem;
 import it.hurts.sskirillss.relics.items.relics.base.data.RelicData;
 import it.hurts.sskirillss.relics.items.relics.base.data.cast.misc.CastStage;
@@ -72,9 +71,6 @@ public class FrostRobeItem extends RelicItem {
                                 .build())
                         .build())
                 .leveling(new LevelingData(100, 10, 200))
-                .style(RelicStyleData.builder()
-                        .borders("#dc41ff", "#832698")
-                        .build())
                 .loot(LootData.builder()
                         .entry(LootCollections.COLD)
                         .build())

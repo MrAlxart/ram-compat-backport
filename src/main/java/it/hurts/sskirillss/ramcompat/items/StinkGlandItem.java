@@ -4,7 +4,6 @@ import com.github.alexthe666.alexsmobs.client.particle.AMParticleRegistry;
 import com.github.alexthe666.alexsmobs.entity.AMEntityRegistry;
 import com.github.alexthe666.alexsmobs.entity.EntityFart;
 import com.github.alexthe666.alexsmobs.misc.AMSoundRegistry;
-import it.hurts.sskirillss.relics.client.tooltip.base.RelicStyleData;
 import it.hurts.sskirillss.relics.items.relics.base.RelicItem;
 import it.hurts.sskirillss.relics.items.relics.base.data.RelicData;
 import it.hurts.sskirillss.relics.items.relics.base.data.cast.misc.CastStage;
@@ -73,9 +72,6 @@ public class StinkGlandItem extends RelicItem {
                                 .build())
                         .build())
                 .leveling(new LevelingData(100, 10, 200))
-                .style(RelicStyleData.builder()
-                        .borders("#dc41ff", "#832698")
-                        .build())
                 .loot(LootData.builder()
                         .entry(LootCollections.JUNGLE)
                         .build())

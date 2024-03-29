@@ -1,6 +1,6 @@
 {
   "item.ramcompat.tendon_lump": "Сухожильный ком",
-  "tooltip.relics.tendon_lump.leveling": "+1 ед. опыта за каждое срабатывание способности «Сухожилие».",
+  "tooltip.relics.tendon_lump.description": "+1 ед. опыта за каждое срабатывание способности «Сухожилие».",
   "tooltip.relics.tendon_lump.ability.tendon": "Сухожилие",
   "tooltip.relics.tendon_lump.ability.tendon.description": "Выпускает в случайную цель поблизости сухожилие, отскакивающее между ближайшими целями и наносящее им урон. Дополнительно применяет модификаторы атаки, если в руке носителя расположен сухожильный кнут.",
   "tooltip.relics.tendon_lump.ability.tendon.stat.distance.title": "Дистанция поиска цели:",
@@ -11,7 +11,7 @@
   "tooltip.relics.tendon_lump.ability.tendon.stat.damage.value": "%1$s единиц.",
 
   "item.ramcompat.frost_robe": "Морозная мантия",
-  "tooltip.relics.frost_robe.leveling": "+1 единица опыта за каждое срабатывание способности «Морозные шипы».\n+1 единица опыта за каждое попадание в цель сосулькой от способности «Морозные шипы».",
+  "tooltip.relics.frost_robe.description": "+1 единица опыта за каждое срабатывание способности «Морозные шипы».\n+1 единица опыта за каждое попадание в цель сосулькой от способности «Морозные шипы».",
   "tooltip.relics.frost_robe.ability.warming": "Разогрев",
   "tooltip.relics.frost_robe.ability.warming.description": "Предотвращает получение обморожения и позволяет ходить по блокам рыхлого снега.",
   "tooltip.relics.frost_robe.ability.icicle": "Морозные шипы",
@@ -30,7 +30,7 @@
   "tooltip.relics.frost_robe.ability.freeze.stat.duration.value": "%1$s секунд за удар.",
 
   "item.ramcompat.stink_gland": "Зловонная железа",
-  "tooltip.relics.stink_gland.leveling": "+1 ед. опыта за каждую секунду работы способности «Биологическая защита».\n+1 ед. опыта за каждую активацию способности «Зловонный рывок».",
+  "tooltip.relics.stink_gland.description": "+1 ед. опыта за каждую секунду работы способности «Биологическая защита».\n+1 ед. опыта за каждую активацию способности «Зловонный рывок».",
   "tooltip.relics.stink_gland.ability.defense": "Биологическая защита",
   "tooltip.relics.stink_gland.ability.defense.description": "При понижении уровня здоровья носителя ниже 20% в течение определённого времени разбрасывает повсюду зловонные миазмы, накладывающие эффект тошноты и вынуждающие ближайших мобов атаковать цели.",
   "tooltip.relics.stink_gland.ability.defense.stat.duration.title": "Продолжительность:",
