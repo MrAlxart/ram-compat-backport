@@ -19,7 +19,6 @@ public class EntityFartMixin {
 
         if (EntityUtils.isAlliedTo(entity.getShooter(), hit.getEntity())) {
             ci.cancel();
-
             return;
         }
 
@@ -28,6 +27,6 @@ public class EntityFartMixin {
         if (stack.isEmpty() || !(stack.getItem() instanceof StinkGlandItem relic))
             return;
 
-        relic.dropAllocableExperience(hit.getEntity().level(), hit.getEntity().getEyePosition(), stack, 1);
+        relic.dropAllocableExperience(hit.getEntity().level, hit.getEntity().getEyePosition(), stack, 1);
     }
 }

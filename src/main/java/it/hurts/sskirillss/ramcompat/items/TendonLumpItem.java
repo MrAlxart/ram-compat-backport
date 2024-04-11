@@ -67,7 +67,7 @@ public class TendonLumpItem extends RelicItem {
                 || !(slotContext.entity() instanceof Player player) || player.tickCount % Math.round(getAbilityValue(stack, "tendon", "cooldown") * 20) != 0)
             return;
 
-        Level level = player.level();
+        Level level = player.level;
 
         if (level.isClientSide())
             return;
@@ -109,7 +109,7 @@ public class TendonLumpItem extends RelicItem {
             if (stack.isEmpty() || !(stack.getItem() instanceof TendonLumpItem relic))
                 return;
 
-            relic.dropAllocableExperience(player.level(), event.getEntity().getEyePosition(), stack, segment.getTargetsHit() + 1);
+            relic.dropAllocableExperience(player.level, event.getEntity().getEyePosition(), stack, segment.getTargetsHit() + 1);
         }
     }
 }
